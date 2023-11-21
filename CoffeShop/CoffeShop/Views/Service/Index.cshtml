@@ -1,0 +1,35 @@
+﻿@using EntityLayer.Concrete
+@model List<Service>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid pt-5">
+    <div class="container">
+        <div class="section-title">
+            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Services</h4>
+            <h1 class="display-4">Fresh & Organic Beans</h1>
+        </div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                   <div class="col-lg-6 mb-5">
+                <div class="row align-items-center">
+                    <div class="col-sm-5">
+                        <img class="img-fluid mb-3 mb-sm-0" src="~/img/@item.Image" alt="">
+                    </div>
+                    <div class="col-sm-7">
+                        <h4><i class="@item.Icons"></i>@item.Header</h4>
+                        <p class="m-0">
+                            @item.Description
+                        </p>
+                    </div>
+                </div>
+            </div>
+            }
+         
+            
+        </div>
+    </div>
+</div>

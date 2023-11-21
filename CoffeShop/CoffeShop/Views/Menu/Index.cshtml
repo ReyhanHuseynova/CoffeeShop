@@ -1,0 +1,38 @@
+﻿@using EntityLayer.Concrete
+@model List<Category>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid pt-5">
+    <div class="container">
+        <div class="section-title">
+            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
+            <h1 class="display-4">Competitive Pricing</h1>
+        </div>
+
+        <div class="row">
+            @foreach (var category in Model)
+            {
+                <div class="col-lg-6">
+                    <h1 class="mb-5">@category.CategoryName</h1>
+
+                    @foreach (var menu in category.Menus)
+                    {
+                        <div class="row align-items-center mb-5">
+                            <div class="col-4 col-sm-3">
+                                <img class="w-100 rounded-circle mb-3 mb-sm-0" src="~/img/@menu.Image" alt="">
+                                <h5 class="menu-price">$@menu.Price</h5>
+                            </div>
+                            <div class="col-8 col-sm-9">
+                                <h4>@menu.SubCategoryName</h4>
+                                <p class="m-0">@menu.Description</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
