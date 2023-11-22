@@ -9,81 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CoffeShop
 build_property.RootNamespace = CoffeShop
-build_property.ProjectDir = C:\Users\ACER\OneDrive\İş masası\CoffeShop\CoffeShop\
+build_property.ProjectDir = C:\Users\ACER\OneDrive\İş masası\GitProjects\CoffeeShop\CoffeShop\CoffeShop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ACER\OneDrive\İş masası\CoffeShop\CoffeShop
+build_property.MSBuildProjectDirectory = C:\Users\ACER\OneDrive\İş masası\GitProjects\CoffeeShop\CoffeShop\CoffeShop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/About/Index.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Reservation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVzZXJ2YXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Slider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Coffe/PartialIndex.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Coffe/PartialIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVcUGFydGlhbEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Contact/Index.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Footer.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Header.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Home/Index.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Menu/Index.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Menu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Page/Index.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Page/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Reservation/Create.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Reservation/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Service/Index.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Shared/Components/Carousel/Default.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Shared/Components/Carousel/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2Fyb3VzZWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Shared/Error.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Shared/_HomeLayout.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Shared/_HomeLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Testimonial/Index.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Testimonial/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/_ViewImports.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/_ViewStart.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/OneDrive/İş masası/CoffeShop/CoffeShop/Views/Shared/_Layout.cshtml]
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6dmy2hc2x4

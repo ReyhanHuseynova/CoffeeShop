@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CuS2xdEQT1ILo3mKzeH8onBbNB0i/FbqIK2QOEBwFyBbSeaUqwfWFcDgZW+I4UjK4NIrjdAiCRC6IZjy45cE6w==",
+  "dgSpecHash": "zxrcJ5X7xquer+tXr5wT+9yAtJ8Nmxb7M+hiFzlWHgLRsH1o7PmSVKT224/hGAD4mGSrH1w8Yk3ckoyojfMueg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",

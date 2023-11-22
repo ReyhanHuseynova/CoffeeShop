@@ -8,10 +8,10 @@ namespace DataAccessLayer.Abstract
 {
     public interface IGenericDal<T> where T:class    
     {
-        List<T> GetAll();
-        T GetById(int id);
-        void Create(T model);
-        void Update(T model);
-        void Delete(T model);
+        List<T> TGetAll();
+        T TGetById(int id);
+        void TCreate(T model);
+        void TUpdate(T model);
+        void TDelete(T model);
     }
 }

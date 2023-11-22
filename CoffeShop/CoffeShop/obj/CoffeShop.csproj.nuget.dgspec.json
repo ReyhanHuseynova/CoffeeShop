@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\CoffeShop\\CoffeShop.csproj": {}
+    "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\CoffeShop\\CoffeShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\CoffeShop\\CoffeShop.csproj": {
+    "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\CoffeShop\\CoffeShop.csproj",
-        "projectName": "CoffeShop",
-        "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\CoffeShop\\CoffeShop.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\CoffeShop\\obj\\",
+        "outputPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,76 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\CoffeShop\\CoffeShop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\CoffeShop\\CoffeShop.csproj",
+        "projectName": "CoffeShop",
+        "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\CoffeShop\\CoffeShop.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\CoffeShop\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -89,14 +154,14 @@
         }
       }
     },
-    "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -113,8 +178,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -164,14 +229,14 @@
         }
       }
     },
-    "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",

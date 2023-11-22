@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MJOcY8zZV1rjjwPMwMKQhY91OaGRBTVVtDNW9t3JHXAAIQDGWd27A3SETqY8o8OrdyRxK+PlD3AHK+i+XzrVoQ==",
+  "dgSpecHash": "otKUCBAOeAkmkcPnW+X2qPFNQZCPNEd5QdLjdkwahJo9SXUdkOG3WEttJLakas3ldeRkj/IGU9zT3k4AdKQ+oA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\OneDrive\\İş masası\\CoffeShop\\CoffeShop\\CoffeShop.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\CoffeeShop\\CoffeShop\\CoffeShop\\CoffeShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

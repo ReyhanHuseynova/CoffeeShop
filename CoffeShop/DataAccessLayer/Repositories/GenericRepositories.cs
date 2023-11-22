@@ -15,29 +15,29 @@ namespace DataAccessLayer.Repositories
         {
             _db=db;
         }
-        public void Create(T model)
+        public void TCreate(T model)
         {
             _db.Add(model);
             _db.SaveChanges();
         }
 
-        public void Delete(T model)
+        public void TDelete(T model)
         {
             _db.Remove(model);
             _db.SaveChanges();
         }
 
-        public List<T> GetAll()
+        public List<T> TGetAll()
         {
           return  _db.Set<T>().ToList();
         }
 
-        public T GetById(int id)
+        public T TGetById(int id)
         {
            return _db.Set<T>().Find(id);
         }
 
-        public void Update(T model)
+        public void TUpdate(T model)
         {
             _db.Update(model);
             _db.SaveChanges();

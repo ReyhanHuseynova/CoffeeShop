@@ -1,4 +1,8 @@
+using BusinessLayer.Abstract;
+using BusinessLayer.Concrete;
 using CoffeShop.DAL;
+using DataAccessLayer.Abstract;
+using DataAccessLayer.EntityFramework;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -10,6 +14,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
+builder.Services.AddScoped<ICategoryService,CategoryManager>(); 
+builder.Services.AddScoped<ICategoryDal,EFCategoryRepository>(); 
 
 var app = builder.Build();
 
