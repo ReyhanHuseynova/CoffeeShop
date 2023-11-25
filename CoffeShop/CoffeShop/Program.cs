@@ -14,8 +14,12 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
-builder.Services.AddScoped<ICategoryService,CategoryManager>(); 
-builder.Services.AddScoped<ICategoryDal,EFCategoryRepository>(); 
+builder.Services.AddScoped<ICategoryService, CategoryManager>();
+builder.Services.AddScoped<ICategoryDal, EFCategoryRepository>();
+builder.Services.AddScoped<IReservationService, ReservationManager>();
+builder.Services.AddScoped<IReservationDal, EFReservationRepository>();
+
+
 
 var app = builder.Build();
 

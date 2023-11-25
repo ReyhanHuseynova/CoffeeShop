@@ -1,7 +1,8 @@
 ﻿@using EntityLayer.Concrete
 @model Category
+
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Update";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
@@ -13,17 +14,19 @@
                 <form method="post">
                     <div class="mb-3">
                         <label asp-for="CategoryName" for="exampleInputEmail1" class="form-label"></label>
-                        <input asp-for="CategoryName" class="form-control"
+                        <input asp-for="CategoryName" class="form-control" 
                                aria-describedby="emailHelp">
                         <span asp-validation-for="CategoryName" class="text-danger"></span>
                     </div>
 
 
-                    <button type="submit" class="btn btn-primary">Create</button>
+                    <button type="submit" class="btn btn-primary">Update</button>
                 </form>
             </div>
         </div>
 
     </div>
 </div>
+
+
 

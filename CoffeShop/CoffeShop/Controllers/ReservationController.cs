@@ -24,8 +24,7 @@ namespace CoffeShop.Controllers
         [HttpPost]
         public IActionResult Create(Reservation reservation)
         {
-            
-            reservation.IsDeactive = true;
+            reservation.IsDeactive = false;
             _db.Reservations.Add(reservation);
             _db.SaveChanges();
             return RedirectToAction("Index", "Home");

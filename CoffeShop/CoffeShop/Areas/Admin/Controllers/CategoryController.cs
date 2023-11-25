@@ -13,7 +13,7 @@ namespace CoffeShop.Areas.Admin.Controllers
         private readonly ICategoryService _categoryService;
         public CategoryController(ICategoryService categoryService)
         {
-            _categoryService= categoryService;  
+            _categoryService = categoryService;
         }
         public IActionResult Index()
         {
@@ -29,9 +29,9 @@ namespace CoffeShop.Areas.Admin.Controllers
         public IActionResult Create(Category category)
         {
 
-            List<Category> catList=_categoryService.TGetAll();
-            bool isExist=catList.Any(x=>x.CategoryName==category.CategoryName); 
-            if(isExist)
+            List<Category> catList = _categoryService.TGetAll();
+            bool isExist = catList.Any(x => x.CategoryName == category.CategoryName);
+            if (isExist)
             {
                 ModelState.AddModelError("CategoryName", "This category already exists!");
                 return View();
@@ -42,13 +42,84 @@ namespace CoffeShop.Areas.Admin.Controllers
                 _categoryService.TCreate(category);
                 return RedirectToAction("Index");
 
-            }catch (Exception)
+            }
+            catch (Exception)
             {
                 string errorMessage = "Could not be created!";
                 ViewBag.error = errorMessage;
                 return View("Create");
             };
         }
-     
+
+        public IActionResult Update(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            List<Category> catList = _categoryService.TGetAll();
+            Category? dbCategory = catList.FirstOrDefault(x => x.CategoryID == id);
+            if (dbCategory == null)
+            {
+                return BadRequest();
+            }
+            return View(dbCategory);
+        }
+
+        [HttpPost]
+        public IActionResult Update(Category category, int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            List<Category> catList = _categoryService.TGetAll();
+            Category? dbCategory = catList.FirstOrDefault(x => x.CategoryID == id );
+            if (dbCategory == null)
+            {
+                return BadRequest();
+            }
+            bool isExist = catList.Any(x => x.CategoryName == category.CategoryName && x.CategoryID != id);
+            if (isExist)
+            {
+                ModelState.AddModelError("CategoryName", "This category is already exist");
+                return View();
+
+            }
+
+            dbCategory.CategoryName = category.CategoryName;
+            _categoryService.TUpdate(dbCategory);
+
+            return RedirectToAction("Index");
+
+        }
+
+        public IActionResult Delete(int? id)
+        {
+
+            if (id == null)
+            {
+                return NotFound();
+            }
+            List<Category> catDelete = _categoryService.TGetAll();
+            Category? dbCategory = catDelete.FirstOrDefault(x => x.CategoryID == id);
+            if (dbCategory == null)
+            {
+                return BadRequest();
+            }
+            _categoryService.TDelete(dbCategory);
+            return RedirectToAction("Index");
+            //if(dbCategory.IsDeactive)
+            //{
+            //    dbCategory.IsDeactive = false;
+            //}
+            //else
+            //{
+            //    dbCategory.IsDeactive = true;   
+            //}
+
+            //return RedirectToAction("Index");
+        }
     }
 }
+
