@@ -2,6 +2,7 @@
 
 namespace CoffeShop.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class ServiceController : Controller
     {
         public IActionResult Index()

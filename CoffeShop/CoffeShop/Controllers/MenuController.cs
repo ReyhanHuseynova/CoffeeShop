@@ -17,5 +17,7 @@ namespace CoffeShop.Controllers
             List<Category> cat= _db.Categories.Include(x=>x.Menus).ToList();
             return View(cat);
         }
+
+
     }
 }

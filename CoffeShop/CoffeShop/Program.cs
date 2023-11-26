@@ -18,6 +18,8 @@ builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<ICategoryDal, EFCategoryRepository>();
 builder.Services.AddScoped<IReservationService, ReservationManager>();
 builder.Services.AddScoped<IReservationDal, EFReservationRepository>();
+builder.Services.AddScoped<IMenuDal, EFMenuRepository>();
+builder.Services.AddScoped<IMenuService, MenuManager>();
 
 
 

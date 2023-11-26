@@ -1,8 +1,84 @@
-﻿
+﻿@using EntityLayer.Concrete
+@model List<Menu>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Index</h1>
+<div class="col-11">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Menu Table</h6>
+        <div class="d-flex justify-content-end" style="margin-bottom:5px">
+            <a asp-action="Create" class="btn btn-info">Create</a>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">SubCategory</th>
+                    <th scope="col">Category Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Icons</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Action</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="~/img/@item.Image">
+                         
+                            
+                        </td>
+                        <td>@item.SubCategoryName</td>
+                        <td>@item.Category.CategoryName</td>
+                        <td>@item.Price</td>
+                        <td>@item.Icons</td>
+                        <td>@item.Description.Substring(0,item.Description.Length/2)</td>
+                        <td>
+                            @if (item.IsDeactive)
+                            {
+                                <span class="text-danger">Passive</span>
+                            }
+                            else
+                            {
+                                <span class="text-success">Active</span>
+                            }
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-end">
+                                <div style="margin-right:5px">
+                                    <a asp-action="Update" asp-route-id="@item.MenuID" class="btn btn-light">Update</a>
+                                </div>
+
+                                <div style="margin-right:5px">
+                                    <a asp-action="Delete" asp-route-id="@item.MenuID" class="btn btn-danger">Delete</a>
+                                </div>
+                                @*  if (item.IsDeactive)
+                            {
+                            <div style="margin-right:5px">
+                            <a asp-action="Delete" asp-route-id="@item.CategoryID" class="btn btn-danger">Activate</a>
+                            </div>
+                            }
+                            else
+                            {
+                            <div style="margin-right:5px">
+                            <a asp-action="Delete" asp-route-id="@item.CategoryID" class="btn btn-success">Deactivate</a>
+                            </div>
+                            } *@
+                            </div>
+
+                        </td>
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
 
