@@ -227,6 +227,9 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsDeactive")
+                        .HasColumnType("bit");
+
                     b.HasKey("ServiceId");
 
                     b.ToTable("Services");
@@ -247,6 +250,9 @@ namespace DataAccessLayer.Migrations
                     b.Property<string>("Image")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeactive")
+                        .HasColumnType("bit");
 
                     b.Property<string>("ServingText")
                         .IsRequired()

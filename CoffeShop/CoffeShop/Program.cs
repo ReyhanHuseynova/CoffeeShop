@@ -20,6 +20,10 @@ builder.Services.AddScoped<IReservationService, ReservationManager>();
 builder.Services.AddScoped<IReservationDal, EFReservationRepository>();
 builder.Services.AddScoped<IMenuDal, EFMenuRepository>();
 builder.Services.AddScoped<IMenuService, MenuManager>();
+builder.Services.AddScoped<ISliderDal,EFSliderRepository>();
+builder.Services.AddScoped<ISliderService,SliderManager>();
+builder.Services.AddScoped<IServiceTableService,ServiceManager>();
+builder.Services.AddScoped<IServiceDal,EFServiceRepository>();
 
 
 

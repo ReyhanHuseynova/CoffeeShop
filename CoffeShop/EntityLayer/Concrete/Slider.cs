@@ -14,6 +14,7 @@ namespace EntityLayer.Concrete
         public string ServingText { get; set; }
         public string CoffeeHeading { get; set; }
         public string SinceText { get; set; }
+        public bool IsDeactive { get; set; }
         public string Image { get; set; }
         [NotMapped]
         public IFormFile Photo { get; set; }

@@ -2192,6 +2192,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\1834f48f-30fe-41e6-b34e-feb321fc056bpayment-method.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\19ad0473-c6bb-4953-89bc-2c43ee97016etop-view-blooming-tulips (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>CoffeShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CoffeShop</BasePath>
+      <RelativePath>img/19ad0473-c6bb-4953-89bc-2c43ee97016etop-view-blooming-tulips (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\19ad0473-c6bb-4953-89bc-2c43ee97016etop-view-blooming-tulips (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\28451eaf-7fd1-47e3-8f43-ad79fdf8dbdfdelivery-status.png))">
       <SourceType>Package</SourceType>
       <SourceId>CoffeShop</SourceId>
@@ -2256,6 +2272,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\442449e3-8459-437c-9c97-d4d8a8606b84WhatsApp Image 2023-03-09 at 18.39.24.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\4587f108-43c3-45d3-934d-3f49a0c125beWhatsApp Image 2023-03-09 at 18.39.24 (2).jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>CoffeShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CoffeShop</BasePath>
+      <RelativePath>img/4587f108-43c3-45d3-934d-3f49a0c125beWhatsApp Image 2023-03-09 at 18.39.24 (2).jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\4587f108-43c3-45d3-934d-3f49a0c125beWhatsApp Image 2023-03-09 at 18.39.24 (2).jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\698a44db-6787-4422-a0ea-2be87a52cb3atop-view-blooming-tulips (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>CoffeShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CoffeShop</BasePath>
+      <RelativePath>img/698a44db-6787-4422-a0ea-2be87a52cb3atop-view-blooming-tulips (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\698a44db-6787-4422-a0ea-2be87a52cb3atop-view-blooming-tulips (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\75f86fd8-b2e5-4e22-8828-8b238fc060f4payment-method.png))">
       <SourceType>Package</SourceType>
       <SourceId>CoffeShop</SourceId>
@@ -2271,6 +2319,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\75f86fd8-b2e5-4e22-8828-8b238fc060f4payment-method.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\76f8c3eb-a0f7-4dc9-813f-066391371998top-view-blooming-tulips (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>CoffeShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CoffeShop</BasePath>
+      <RelativePath>img/76f8c3eb-a0f7-4dc9-813f-066391371998top-view-blooming-tulips (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\76f8c3eb-a0f7-4dc9-813f-066391371998top-view-blooming-tulips (1).jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\7e92925e-e107-448d-9bc2-1ed82eb46019return.png))">
       <SourceType>Package</SourceType>
@@ -2319,6 +2383,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\85e702bc-829f-4315-a44a-14e7377b8212management.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\9cfe25b1-1e58-4805-8394-093b48d8f51aWhatsApp Image 2023-03-09 at 18.39.23.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>CoffeShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CoffeShop</BasePath>
+      <RelativePath>img/9cfe25b1-1e58-4805-8394-093b48d8f51aWhatsApp Image 2023-03-09 at 18.39.23.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\9cfe25b1-1e58-4805-8394-093b48d8f51aWhatsApp Image 2023-03-09 at 18.39.23.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\a00d58e0-bbc1-41c6-9c94-d5db0868781bdelivery-status.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>CoffeShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CoffeShop</BasePath>
+      <RelativePath>img/a00d58e0-bbc1-41c6-9c94-d5db0868781bdelivery-status.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\a00d58e0-bbc1-41c6-9c94-d5db0868781bdelivery-status.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\a8f478dc-035a-4623-913f-eed155bf005creturn.png))">
       <SourceType>Package</SourceType>
@@ -2416,6 +2512,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\cdc46212-310d-4fa4-b02b-4dc76d2ccde5delivery-status.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\e112594d-7054-4640-a954-48283f5fba12stethoscope.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>CoffeShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CoffeShop</BasePath>
+      <RelativePath>img/e112594d-7054-4640-a954-48283f5fba12stethoscope.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\e112594d-7054-4640-a954-48283f5fba12stethoscope.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\e4ca01d0-fd86-457b-b058-f2129def1287delivery-status.png))">
       <SourceType>Package</SourceType>
       <SourceId>CoffeShop</SourceId>
@@ -2463,6 +2575,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\e6603269-4c58-4465-af80-2fcca93b095bWhatsApp Image 2023-10-26 at 16.36.33.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\f31198eb-7859-421a-859a-31e8b6581857top-view-blooming-tulips (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>CoffeShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CoffeShop</BasePath>
+      <RelativePath>img/f31198eb-7859-421a-859a-31e8b6581857top-view-blooming-tulips (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\f31198eb-7859-421a-859a-31e8b6581857top-view-blooming-tulips (1).jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\f71e12d1-ec40-4749-a842-548137cd5841payment-method.png))">
       <SourceType>Package</SourceType>

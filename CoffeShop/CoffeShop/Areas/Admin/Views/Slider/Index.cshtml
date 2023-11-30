@@ -1,8 +1,82 @@
-﻿
+﻿@using EntityLayer.Concrete
+@model List<Slider>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Index</h1>
 
+<div class="col-11">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Slider Table</h6>
+        <div class="d-flex justify-content-end" style="margin-bottom:5px">
+            <a asp-action="Create" class="btn btn-info">Create</a>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">ServingText</th>
+                    <th scope="col">CoffeeHeading</th>
+                    <th scope="col">SinceText</th>
+                     <th scope="col">Status</th>
+                    <th scope="col">Action</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img style="width:200px; height:100px; object-fit:cover" src="~/img/@item.Image">
+
+
+                        </td>
+                        <td>@item.ServingText</td>
+                        <td>@item.CoffeeHeading</td>
+                        <td>@item.SinceText</td>
+                       
+                        <td>
+                            @if (item.IsDeactive)
+                            {
+                                <span class="text-danger">Passive</span>
+                            }
+                            else
+                            {
+                                <span class="text-success">Active</span>
+                            }
+                        </td>
+
+                        <td>
+                            <div class="d-flex justify-content-end">
+                                <div style="margin-right:5px">
+                                    <a asp-action="Update" asp-route-id="@item.SliderID" class="btn btn-light">Update</a>
+                                </div>
+
+                                <div style="margin-right:5px">
+                                    <a asp-action="Delete" asp-route-id="@item.SliderID" class="btn btn-danger">Delete</a>
+                                </div>
+                                @*  if (item.IsDeactive)
+                            {
+                            <div style="margin-right:5px">
+                            <a asp-action="Delete" asp-route-id="@item.CategoryID" class="btn btn-danger">Activate</a>
+                            </div>
+                            }
+                            else
+                            {
+                            <div style="margin-right:5px">
+                            <a asp-action="Delete" asp-route-id="@item.CategoryID" class="btn btn-success">Deactivate</a>
+                            </div>
+                            } *@
+                            </div>
+
+                        </td>
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>

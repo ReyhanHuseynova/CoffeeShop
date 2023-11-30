@@ -109,10 +109,10 @@ namespace CoffeShop.Areas.Admin.Controllers
                     return View();
                 }
                 string folder = Path.Combine(_env.WebRootPath, "img");
-                menu.Image = await menu.Photo.SaveImageAsync(folder);
+                dbm.Image = await menu.Photo.SaveImageAsync(folder);
             }
            
-            dbm.Photo = menu.Photo;
+           
             dbm.SubCategoryName= menu.SubCategoryName;
             dbm.Description= menu.Description;
             dbm.Price= menu.Price;

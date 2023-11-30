@@ -56,8 +56,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVzZXJ2YXRpb25cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Service/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Service/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
@@ -68,8 +76,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Slider/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Slider/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/Slider/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ACER/OneDrive/İş masası/GitProjects/CoffeeShop/CoffeShop/CoffeShop/Areas/Admin/Views/_ViewImports.cshtml]

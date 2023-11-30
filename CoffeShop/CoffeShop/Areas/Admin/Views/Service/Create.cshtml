@@ -1,0 +1,47 @@
+﻿@using EntityLayer.Concrete
+@model Service
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-6">
+            <div class="bg-secondary rounded h-100 p-4">
+                <h6 class="mb-4">Create Service</h6>
+                <form method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label asp-for="Photo" for="exampleInputEmail1" class="form-label"></label>
+                        <input accept="image/*" asp-for="Photo" class="form-control"
+                               aria-describedby="emailHelp">
+                        <span asp-validation-for="Photo" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Header" for="exampleInputEmail1" class="form-label"></label>
+                        <input asp-for="Header" class="form-control"
+                               aria-describedby="emailHelp">
+                        <span asp-validation-for="Header" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Icons" for="exampleInputEmail1" class="form-label"></label>
+                        <input asp-for="Icons" class="form-control"
+                               aria-describedby="emailHelp">
+                        <span asp-validation-for="Icons" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Description" for="exampleInputEmail1" class="form-label"></label>
+                        <input asp-for="Description" class="form-control"
+                               aria-describedby="emailHelp">
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Create</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
